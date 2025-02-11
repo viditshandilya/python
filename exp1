@@ -1,1 +1,20 @@
+# Demonstrating basic data types in Python
+# Integer
+integer_value = 42
+print("Integer value:", integer_value, "| Type:", type(integer_value))
+Integer value: 42 | Type: <class 'int'>
+# Float
+float_value = 3.14
+print("Float value:", float_value, "| Type:", type(float_value))
+Float value: 3.14 | Type: <class 'float'>
+# String
+string_value = "Hello, Python!"
+print("String value:", string_value, "| Type:", type(string_value))
+String value: Hello, Python! | Type: <class 'str'>
+# Boolean
+boolean_value = True
+print("Boolean value:", boolean_value, "| Type:", type(boolean_value))
+Boolean value: True | Type: <class 'bool'>
+
+
 
