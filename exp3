@@ -1,0 +1,64 @@
+# Prompt the user to enter a number and convert the input to an integer
+num = int(input("Enter a number: "))
+
+# Check if the number is even by using the modulus operator
+if (num % 2 == 0):
+    # If the number is even, print a message indicating it is even
+    print(num, " is even")
+else:
+    # If the number is not even, print a message indicating it is not even
+    print(num, " is not even")
+9  is not even
+# Iterate over a range of numbers from 2 to 10 (inclusive)
+for i in range(2, 11):
+    # Print the reciprocal of the current number 'i'
+    print(1/i)
+0.5
+0.3333333333333333
+0.25
+0.2
+0.16666666666666666
+0.14285714285714285
+0.125
+0.1111111111111111
+0.1
+# Prompt the user to enter the first number and convert it to an integer
+num1 = int(input("Enter number 1: "))
+
+# Prompt the user to enter the second number and convert it to an integer
+num2 = int(input("Enter number 2: "))
+
+# Prompt the user to enter the third number and convert it to an integer
+num3 = int(input("Enter number 3: "))
+
+# Check if num1 is greater than both num2 and num3
+if num1 > num2 and num1 > num3:
+    # If true, print that num1 is the greatest
+    print(num1, "is the greatest of the three numbers.")
+# Check if num2 is greater than both num1 and num3
+elif num2 > num1 and num2 > num3:
+    # If true, print that num2 is the greatest
+    print(num2, "is the greatest of the three numbers.")
+# If neither num1 nor num2 is the greatest, num3 must be the greatest
+else:
+    # Print that num3 is the greatest
+    print(num3, "is the greatest of the three numbers.")
+64 is the greatest of the three numbers.
+# Input values from the user
+principal = float(input("Enter the principal amount: "))
+rate = float(input("Enter the rate of interest (in % per annum): "))
+time = float(input("Enter the time period (in years): "))
+compound_frequency = int(input("Enter the number of times interest is compounded per year (e.g., 1 for annually, 4 for quarterly, 12 for monthly): "))
+
+# Calculating Simple Interest
+simple_interest = (principal * rate * time) / 100
+
+# Calculating Compound Interest
+compound_interest = principal * (1 + (rate / (100 * compound_frequency)))**(compound_frequency * time) - principal
+
+# Display the results
+print("Simple Interest: ", round(simple_interest, 2))
+print("Compound Interest: ", round(compound_interest, 2))
+Simple Interest:  240.0
+Compound Interest:  266.77
+ 
