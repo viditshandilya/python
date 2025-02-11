@@ -1,0 +1,27 @@
+import math  # Import the math module to use mathematical functions
+
+# Prompt the user to enter the x-coordinate of the first point and convert it to a float
+x1 = float(input("Enter the x-coordinate of the first point: "))
+
+# Prompt the user to enter the y-coordinate of the first point and convert it to a float
+y1 = float(input("Enter the y-coordinate of the first point: "))
+
+# Prompt the user to enter the x-coordinate of the second point and convert it to a float
+x2 = float(input("Enter the x-coordinate of the second point: "))
+
+# Prompt the user to enter the y-coordinate of the second point and convert it to a float
+y2 = float(input("Enter the y-coordinate of the second point: "))
+
+# Calculate the distance between the two points using the distance formula
+distance = math.sqrt((x2 - x1)**2 + (y2 - y1)**2)
+
+# Print the calculated distance formatted to two decimal places
+print(f"The distance between the points ({x1}, {y1}) and ({x2}, {y2}) is {distance:.2f}")
+The distance between the points (20.0, 20.0) and (50.0, 50.0) is 42.43
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter second number: "))
+num3 = num1 + num2
+print(num1," + ",num2," = ",num3)
+20  +  30  =  50
+# Prompt the user to enter the first number and convert the input to an integer
+num1 = int(input("Enter first number: "))
