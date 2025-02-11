@@ -1,0 +1,29 @@
+# Create a list of names
+l = ('yash','tanisha','bansal','vidit')
+
+# Print the entire list of names
+print(l)
+
+# Print the first name in the list
+print(l[0])
+
+# Iterate through each name in the list and print it
+for i in l:
+    print(i)
+
+# Update the fourth name in the list to "Rahu"
+l[3] = "Rahu"
+
+# Display the updated list
+l
+('yash','tanisha','bansal','vidit')
+vidit
+bansal
+tanisha
+yash
+('yash','tanisha','bansal','vidit')
+# Define a tuple containing names
+t = ('yash','tanisha','bansal','vidit')
+
+# Print the entire tuple
+print(t)
